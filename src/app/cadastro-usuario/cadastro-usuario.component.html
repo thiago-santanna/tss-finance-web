@@ -1,1 +1,35 @@
-<p>cadastro-usuario works!</p>
+<body>
+  <main class="form-signin">
+    <h1 class="pb-3">
+      <span class="badge bg-secondary">Cadastro de usuário</span>
+    </h1>
+    <form>
+      <div class="mb-3 form-floating">
+        <label for="userName" class="form-label">Nome</label>
+        <input
+          type="text"
+          class="form-control"
+          id="userName"
+          aria-describedby="namelHelp"
+        />
+      </div>
+
+      <div class="mb-3 form-floating">
+        <label for="userEmail" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="userEmail"
+          aria-describedby="emailHelp"
+        />
+      </div>
+
+      <div class="mb-3 form-floating">
+        <label for="userPassword" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="userPassword" />
+      </div>
+
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+  </main>
+</body>

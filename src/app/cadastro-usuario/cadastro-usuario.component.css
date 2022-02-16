@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+}
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 40px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 355px;
+  padding: 15px;
+  margin: auto;
+}
