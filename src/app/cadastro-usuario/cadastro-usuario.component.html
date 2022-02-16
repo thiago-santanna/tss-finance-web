@@ -5,31 +5,38 @@
     </h1>
     <form>
       <div class="mb-3 form-floating">
-        <label for="userName" class="form-label">Nome</label>
         <input
           type="text"
           class="form-control"
           id="userName"
-          aria-describedby="namelHelp"
+          placeholder="nome@exemplo.com.br"
         />
+        <label class="form-label" for="userName">Nome</label>
       </div>
 
       <div class="mb-3 form-floating">
-        <label for="userEmail" class="form-label">Email</label>
         <input
           type="email"
           class="form-control"
           id="userEmail"
-          aria-describedby="emailHelp"
+          placeholder="nome@exemplo.com.br"
         />
+        <label for="userEmail" class="form-label">Email</label>
       </div>
 
       <div class="mb-3 form-floating">
+        <input
+          type="password"
+          class="form-control"
+          id="userPassword"
+          placeholder="password"
+        />
         <label for="userPassword" class="form-label">Senha</label>
-        <input type="password" class="form-control" id="userPassword" />
       </div>
 
-      <button type="submit" class="btn btn-primary">Cadastrar</button>
+      <div class="form-floating">
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+      </div>
     </form>
   </main>
 </body>
