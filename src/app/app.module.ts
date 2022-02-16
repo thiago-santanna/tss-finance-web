@@ -8,15 +8,17 @@ import { ResumoComponent } from './resumo/resumo.component';
 import { CustonNavbarComponent } from './custon-navbar/custon-navbar.component';
 import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
       LoginComponent,
       ResumoComponent,
       CustonNavbarComponent,
       CadastroUsuarioComponent,
-      PageNotFoundComponent
+      PageNotFoundComponent,
+      FooterComponent
    ],
   imports: [
     BrowserModule,
