@@ -1,17 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { ResumoComponent } from './resumo/resumo.component';
-import { CustonNavbarComponent } from './custon-navbar/custon-navbar.component';
-import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './components/login/login.component';
+import { ResumoComponent } from './components/resumo/resumo.component';
+import { CustonNavbarComponent } from './components/custon-navbar/custon-navbar.component';
+import { CadastroUsuarioComponent } from './components/cadastro-usuario/cadastro-usuario.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [			
+  declarations: [
     AppComponent,
       LoginComponent,
       ResumoComponent,
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

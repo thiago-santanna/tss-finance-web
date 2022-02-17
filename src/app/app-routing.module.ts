@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
-import { LoginComponent } from './login/login.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { ResumoComponent } from './resumo/resumo.component';
+import { CadastroUsuarioComponent } from './components/cadastro-usuario/cadastro-usuario.component';
+import { LoginComponent } from './components/login/login.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ResumoComponent } from './components/resumo/resumo.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/login', pathMatch: 'full'},
